@@ -1,6 +1,6 @@
 public class Animal {
 
-    private int age;
+    public int age;
 
     private String breed;
 
