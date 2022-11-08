@@ -9,4 +9,9 @@ public class Cat extends Animal{
     public void test(){
         System.out.println(this.typeOfFoodToEat + " " + super.age);
     }
+
+    @Override
+    public void eat(){
+        System.out.println("Cat eating");
+    }
 }
